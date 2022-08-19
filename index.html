@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norfaz Bank :: Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-center font-bold text-violet-700 my-8">:: Welcome to Norfaz Bank ::</header>
+    <main>
+        <section>
+            <div class="grid grid-cols-3 w-3/4 border mx-auto">
+                <div class="bg-green-700 mx-3 my-5 p-3">
+                    <h2 class="text-white text-2xl">Deposit</h2>
+                    <h2 class="text-white text-2xl">$ <span id="depositDisplay">0.00</span></h2>
+                </div>
+    
+                <div class="bg-red-700 mx-3 my-5 p-3">
+                    <h2 class="text-white text-2xl">Withdraw</h2>
+                    <h2 class="text-white text-2xl">$ <span id="withdrawDisplay">0.00</span></h2>
+                </div>
+    
+                <div class="bg-sky-700 mx-3 my-5 p-3">
+                    <h2 class="text-white text-2xl">Balance</h2>
+                    <h2 class="text-white text-2xl">$ <span id="balanceDisplay">0.00</span></h2>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="grid grid-cols-2 w-3/4 border my-10 mx-auto">
+                <div class="flex bg-violet-500 mx-5 my- p-2 gap-3 h-12 items-center">
+                    <h2 class="text-white text-2xl">Deposit</h2>
+                    <input id="depositInput" class="h-7 w-60" type="text" placeholder="Please Input deposit amount">
+                    <button id="depositButton" class="bg-gray-200 px-3 h-7 hover:bg-yellow-100">Submit</button>
+                </div>
+    
+                <div class="flex bg-pink-500 mx-5 my- p-2 gap-3 h-12 items-center">
+                    <h2 class="text-white text-2xl">Withdraw</h2>
+                    <input id="withdrawInput" class="h-7 w-60" type="text" placeholder="Please Input deposit amount">
+                    <button id="withdrawButton" class="bg-gray-200 px-3 h-7">Submit</button>
+                </div>
+        
+            </div>
+        </section>
+        
+    </main>
+    <script src="./JS/login.js"></script>
+</body>
+</html>

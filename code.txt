@@ -1,0 +1,25 @@
+//Making Despoit output as number
+const depositDisplayField = document.getElementById('depositDisplay').innerText;
+
+
+const existingDeposit = parseFloat(depositDisplayField);
+
+//Making Withdraw output as number
+const withdrawDisplayField = document.getElementById('withdrawDisplay').innerText;
+
+const existingWithdraw = parseFloat(withdrawDisplayField);
+
+//Making Balance output as number
+const balanceDisplayField = document.getElementById('balanceDisplay').innerText;
+
+const existingBalance = parseFloat(balanceDisplayField);
+
+//Making Deposit Input as number
+const depositInputField = document.getElementById('depositInput').value
+
+const depositAmount = parseFloat(depositInputField);
+
+//Making Withdraw Input as number
+const withdrawInputField = document.getElementById('withdrawInput').value
+
+const withdrawAmount = parseFloat(withdrawInputField);
